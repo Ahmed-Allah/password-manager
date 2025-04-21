@@ -1,4 +1,4 @@
-# 🔐 SecureVault Password Manager
+# 🔐 PasswordManager Password Manager
 
 A modern, secure password manager built with React, featuring advanced password generation, security checks, and real-time data synchronization.
 
