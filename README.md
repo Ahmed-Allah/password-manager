@@ -72,7 +72,6 @@ Developed by [0x_V3N0M](https://github.com/Ahmed-Allah), SecureVault is a state-
 - Browser extension integration
 - Advanced encryption options
 - Mobile applications
-- Offline mode support
 
 
 
