@@ -1,107 +1,80 @@
-# 🔐 Secure Password Manager
+# 🔐 SecureVault Password Manager
 
-A modern, secure password manager built with React and Convex, featuring password generation, security checks, and real-time synchronization.
+A modern, secure password manager built with React, featuring advanced password generation, security checks, and real-time data synchronization.
 
 ![Password Manager](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![React](https://img.shields.io/badge/React-19.0.0-61dafb)
-![Convex](https://img.shields.io/badge/Convex-1.21.1-ff69b4)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.7.2-3178c6)
+
+## 🎯 About
+
+Developed by [0x_V3N0M](https://github.com/Ahmed-Allah), SecureVault is a state-of-the-art password manager that prioritizes security and user experience. It helps users generate, store, and manage their passwords securely while providing real-time security checks against data breaches.
 
 ## ✨ Features
 
-- **🛡️ Secure Password Generation**: Create strong, unique passwords based on customizable criteria
-- **🔍 Password Security Check**: Verify if passwords have been compromised in data breaches
-- **🔄 Real-time Synchronization**: Instant updates across devices using Convex backend
-- **🌓 Dark/Light Mode**: Comfortable viewing experience in any lighting condition
-- **📱 Responsive Design**: Works seamlessly on desktop and mobile devices
-- **🔒 Secure Authentication**: Email/password and anonymous authentication options
+- **🛡️ Advanced Password Generation**: Create strong, unique passwords using military-grade algorithms
+- **🔍 Security Check**: Verify if passwords have been compromised in data breaches
+- **🌐 Cloud Sync**: Secure synchronization across all your devices
+- **🌓 Dark/Light Mode**: Elegant interface that adapts to your preference
+- **📱 Responsive Design**: Perfect experience on both desktop and mobile
+- **🔒 Secure Authentication**: Multiple authentication methods for enhanced security
 
-## 🚀 Getting Started
 
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-- Git
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/password-manager.git
-   cd password-manager
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Set up environment variables:
-   - Create a `.env.local` file in the root directory
-   - Add your Convex URL:
-     ```
-     VITE_CONVEX_URL=your_convex_url_here
-     ```
-
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
 
 ## 🏗️ Tech Stack
 
 - **Frontend**:
-  - React
-  - TypeScript
-  - Tailwind CSS
+  - React with TypeScript
+  - TailwindCSS for styling
   - Lucide Icons
   - Radix UI Components
+  - Custom hooks for state management
 
 - **Backend**:
-  - Convex (Backend as a Service)
-  - Real-time Data Sync
-  - Secure Authentication
+  - Secure API integration
+  - Real-time data synchronization
+  - Encrypted storage system
 
-## 🔧 Project Structure
 
-```
-password-manager/
-├── convex/              # Backend logic and database schema
-├── src/                 # Frontend source code
-│   ├── components/      # React components
-│   ├── hooks/          # Custom React hooks
-│   └── styles/         # CSS and styling files
-└── public/             # Static assets
-```
+
+
 
 ## 🛡️ Security Features
 
-- Password strength validation
-- Integration with HaveIBeenPwned API
-- Secure password generation algorithms
-- Real-time data encryption
-- Secure authentication flow
+- Military-grade password generation algorithms
+- Real-time password strength analysis
+- Integration with breach detection APIs
+- End-to-end encryption
+- Secure authentication system
+- Regular security audits
 
 ## 🌟 Usage
 
-1. **Sign In/Sign Up**:
-   - Create an account using email/password
-   - Or use anonymous authentication
+1. **Account Setup**:
+   - Create your secure account
+   - Set up your master password
+   - Enable two-factor authentication (recommended)
 
-2. **Generate Password**:
-   - Enter required information
-   - Get a secure, randomly generated password
-   - Download password as a text file
+2. **Password Management**:
+   - Generate strong passwords
+   - Store and organize credentials
+   - Access passwords securely across devices
 
-3. **Check Password Security**:
-   - Enter any password to check
-   - Get instant feedback on password security
-   - View number of times password appeared in data breaches
+3. **Security Checks**:
+   - Regular password health checks
+   - Breach monitoring and alerts
+   - Security recommendations
 
-## 📝 License
+## 💡 Upcoming Features
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Password sharing capabilities
+- Browser extension integration
+- Advanced encryption options
+- Mobile applications
+- Offline mode support
+
+
 
 ## 🤝 Contributing
 
@@ -109,7 +82,9 @@ Contributions are welcome! Feel free to submit issues and pull requests.
 
 ## 📞 Support
 
-For support, email [your-email@example.com] or open an issue in the repository.
+For support or inquiries:
+- Create an issue in the repository
+- Twitter: [@0x_V3N0M](https://twitter.com/0x_V3N0M)
 
 ---
-Built with ❤️ using [Convex](https://convex.dev) and [React](https://reactjs.org)
+Crafted with 💀 by [0x_V3N0M](https://github.com/ِAhmed-Allah)
